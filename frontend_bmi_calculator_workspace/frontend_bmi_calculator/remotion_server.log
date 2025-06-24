@@ -1,0 +1,34 @@
+
+> remotion@1.0.0 dev
+> remotion studio  --host 0.0.0.0 --port 3000
+
+Server ready - Local: http://localhost:3000, Network: http://172.17.0.2:3000
+Built in 2114ms
+Building...
+Built in 137ms
+Building...
+Built in 474ms
+Building...
+Built in 58ms
+Building...
+Built in 232ms
+Building...
+ERROR in ./src/index.ts
+Module build failed (from ./node_modules/@remotion/bundler/dist/esbuild-loader/index.js):
+Error: Transform failed with 1 error:
+/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/src/index.ts:18:38: ERROR: Expected ">" but found "/"
+    at failureErrorWithLog (/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/node_modules/esbuild/lib/main.js:1477:15)
+    at /home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/node_modules/esbuild/lib/main.js:756:50
+    at responseCallbacks.<computed> (/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/node_modules/esbuild/lib/main.js:623:9)
+    at handleIncomingPacket (/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/node_modules/esbuild/lib/main.js:678:12)
+    at Socket.readFromStdout (/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator/node_modules/esbuild/lib/main.js:601:7)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    at readableAddChunk (node:internal/streams/readable:341:9)
+    at Readable.push (node:internal/streams/readable:278:10)
+    at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+Built in 179ms
+Building...
+Built in 230ms
+Building...
+Built in 181ms

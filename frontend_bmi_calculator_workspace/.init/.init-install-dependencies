@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/bmi-reactify-70053-c35d6cff/frontend_bmi_calculator_workspace/frontend_bmi_calculator"
+}
